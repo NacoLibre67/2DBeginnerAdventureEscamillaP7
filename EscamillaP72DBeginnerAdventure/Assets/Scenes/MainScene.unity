@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 267727281}
   - component: {fileID: 267727280}
   - component: {fileID: 267727282}
+  - component: {fileID: 267727283}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -219,6 +220,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a81d42aea08ca641a5e253d35b8b8ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LeftAction:
+    m_Name: Left
+    m_Type: 0
+    m_ExpectedControlType: Button
+    m_Id: 07f3914c-2916-4eb5-a644-5e00acbf67d3
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: f5f20e0e-0000-4fff-afa3-f70f17fc9e5b
+      m_Path: 
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left
+      m_Flags: 0
+    m_Flags: 0
+--- !u!114 &267727283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267727279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a81d42aea08ca641a5e253d35b8b8ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftAction:
+    m_Name: Left
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 98cb798c-3efa-47a1-8213-870d961f57ff
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!1 &1085372583
 GameObject:
   m_ObjectHideFlags: 0
