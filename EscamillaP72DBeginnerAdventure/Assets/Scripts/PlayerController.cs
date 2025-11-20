@@ -31,12 +31,8 @@ public class PlayerController : MonoBehaviour
         Vector2 move = MoveAction.ReadValue<Vector2>();
         Debug.Log(move);
 
-        Vector2 position = (Vector2)transform.position + move * 0.1f;
-        transform.position = position;
-    }
-    void FixedUpdate()
-    {
-        Vector2 position = (Vector2)rigidbody2d.position + move * speed * Time.deltaTime;
+    
+        Vector2 position = (Vector2)rigidbody2d.position + move  * speed * Time.deltaTime;
         rigidbody2d.MovePosition(position);
     }
 
