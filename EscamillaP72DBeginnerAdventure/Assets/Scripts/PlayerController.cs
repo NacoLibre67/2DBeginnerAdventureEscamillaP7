@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     Vector2 Move;
     
     public int maxHealth = 5;
-    int currentHealth;
+    public int currentHealth;
 
     // Start is called before the first frame update
     void Start()
